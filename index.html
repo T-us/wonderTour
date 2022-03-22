@@ -1,0 +1,1750 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wonder Tour</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/resetCSS/resetCSS.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="header__info">
+                <div class="grid wide header__info-box">
+                    
+                    <div class="header__navbar-category hide-on-pc">
+                        <input type="checkbox" name="" hidden id="category-menu-checkbox" class="header__menu-checkbox">
+                        
+                        <label for="category-menu-checkbox" class="header__icon-menu hide-on-pc">
+                            <i class="header__icon-menu-link fas fa-bars"></i>
+                        </label>
+                        
+                        <label for="category-menu-checkbox" class="header__icon-back hide-on-pc">
+                            <i class="header__icon-back-link fas fa-arrow-left"></i>
+                        </label>
+                        
+                        <label for="category-menu-checkbox" class="category-menu-overlay"></label>
+
+                        <div class="header__category-menu">
+                            <ul class="category-menu__social-list">
+                                <li class="category-menu__social-item">
+                                    <a href="" class="category-menu__item-link">
+                                        <i class="category-menu__item-icon fab fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li class="category-menu__social-item">
+                                    <a href="" class="category-menu__item-link">
+                                        <i class="category-menu__item-icon fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li class="category-menu__social-item">
+                                    <a href="" class="category-menu__item-link">
+                                        <i class="category-menu__item-icon fab fa-google-plus-g"></i>
+                                    </a>
+                                </li>
+                                <li class="category-menu__social-item">
+                                    <a href="" class="category-menu__item-link">
+                                        <i class="category-menu__item-icon fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <ul class="category-menu__navbar-list">
+                                <li class="category-menu__navbar-item">
+                                    <a href="" class="navbar-item__link">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="category-menu__navbar-item">
+                                    <a href="" class="navbar-item__link">
+                                        About
+                                    </a>
+                                    <input type="checkbox" name="" hidden id="checkbox-about" class="navbar-item__checkbox">
+                                    <label for="checkbox-about" class="navbar-item__label-icon">
+                                        <i class="navbar-item__icon fas fa-angle-down"></i>
+                                    </label>
+                                    <div class="navbar-item__box">
+                                        <ul class="navbar-item__box-list">
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Our Team
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category-menu__navbar-item">
+                                    <a href="" class="navbar-item__link">
+                                        Our Tours
+                                    </a>
+                                    <input type="checkbox" name="" hidden id="checkbox-our-tour" class="navbar-item__checkbox">
+                                    <label for="checkbox-our-tour" class="navbar-item__label-icon">
+                                        <i class="navbar-item__icon fas fa-angle-down"></i>
+                                    </label>
+                                    <div class="navbar-item__box">
+                                        <ul class="navbar-item__box-list">
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Single Tour
+                                                </a>
+                                            </li>
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Family Tour
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category-menu__navbar-item">
+                                    <a href="" class="navbar-item__link">
+                                        Gallery
+                                    </a>
+                                    <input type="checkbox" name="" hidden id="checkbox-gallery" class="navbar-item__checkbox">
+                                    <label for="checkbox-gallery" class="navbar-item__label-icon">
+                                        <i class="navbar-item__icon fas fa-angle-down"></i>
+                                    </label>
+                                    <div class="navbar-item__box">
+                                        <ul class="navbar-item__box-list">
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Grid Gallery
+                                                </a>
+                                            </li>
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Full width Gallery
+                                                </a>
+                                            </li>
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Masonry Gallery
+                                                </a>
+                                            </li>
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Full width Masonry Gallery
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category-menu__navbar-item">
+                                    <a href="" class="navbar-item__link">
+                                        Blog
+                                    </a>
+                                    <input type="checkbox" name="" hidden id="checkbox-blog" class="navbar-item__checkbox">
+                                    <label for="checkbox-blog" class="navbar-item__label-icon">
+                                        <i class="navbar-item__icon fas fa-angle-down"></i>
+                                    </label>
+                                    <div class="navbar-item__box">
+                                        <ul class="navbar-item__box-list">
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Classic Blog
+                                                </a>
+                                            </li>
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Grid Blog
+                                                </a>
+                                            </li>
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Grid Blog 2
+                                                </a>
+                                            </li>
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Grid Blog 3
+                                                </a>
+                                            </li>
+                                            <li class="navbar-item__box-item">
+                                                <a href="" class="navbar-item__box-item-link">
+                                                    Blog Post
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="category-menu__navbar-item">
+                                    <a href="" class="navbar-item__link">
+                                        Contact Us
+                                    </a>
+                                </li>
+                                <li class="category-menu__navbar-item">
+                                    <a href="" class="navbar-item__link">
+                                        Pages
+                                    </a>
+                                    <input type="checkbox" name="" hidden id="checkbox-pages" class="navbar-item__checkbox">
+                                    <label for="checkbox-pages" class="navbar-item__label-icon">
+                                        <i class="navbar-item__icon fas fa-angle-down"></i>
+                                    </label>
+                                    <div class="navbar-item__box">
+                                        <div class="navbar-item__box-elements">
+                                            <div class="navbar-item__box-elements-heading">
+                                                Elements
+                                            </div>
+                                            <ul class="navbar-item__box-elements-list">
+                                                <li class="navbar-item__box-elements-item">
+                                                    <a href="" class="navbar-item__box-elements-link">
+                                                        Typography
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-elements-item">
+                                                    <a href="" class="navbar-item__box-elements-link">
+                                                        Buttons
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-elements-item">
+                                                    <a href="" class="navbar-item__box-elements-link">
+                                                        Forms
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-elements-item">
+                                                    <a href="" class="navbar-item__box-elements-link">
+                                                        Tabs and Accordions
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-elements-item">
+                                                    <a href="" class="navbar-item__box-elements-link">
+                                                        Counters
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-elements-item">
+                                                    <a href="" class="navbar-item__box-elements-link">
+                                                        Icons with Text
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-elements-item">
+                                                    <a href="" class="navbar-item__box-elements-link">
+                                                        Progress Bars
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-elements-item">
+                                                    <a href="" class="navbar-item__box-elements-link">
+                                                        Grid System
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-elements-item">
+                                                    <a href="" class="navbar-item__box-elements-link">
+                                                        Privacy Policy
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="navbar-item__box-additional">
+                                            <div class="navbar-item__box-additional-heading">
+                                                Additional pages
+                                            </div>
+                                            <ul class="navbar-item__box-additional-list"> 
+                                                <li class="navbar-item__box-additional-item">
+                                                    <a href="" class="navbar-item__box-additional-link">
+                                                        Services
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-additional-item">
+                                                    <a href="" class="navbar-item__box-additional-link">
+                                                        Testimonials
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-additional-item">
+                                                    <a href="" class="navbar-item__box-additional-link">
+                                                        404 Page
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-additional-item">
+                                                    <a href="" class="navbar-item__box-additional-link">
+                                                        503 Page
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-additional-item">
+                                                    <a href="" class="navbar-item__box-additional-link">
+                                                        Pricing
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-additional-item">
+                                                    <a href="" class="navbar-item__box-additional-link">
+                                                        Coming Soon
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-additional-item">
+                                                    <a href="" class="navbar-item__box-additional-link">
+                                                        Contact Us 2
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-additional-item">
+                                                    <a href="" class="navbar-item__box-additional-link">
+                                                        FAQ
+                                                    </a>
+                                                </li>
+                                                <li class="navbar-item__box-additional-item">
+                                                    <a href="" class="navbar-item__box-additional-link">
+                                                        Search results
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>   
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="header__info-logo">
+                        <a href="" class="header__info-logo-link">
+                            <img src="./assets/img/logo-default.png" alt="" class="header__info-logo-img">
+                        </a>
+                    </div>
+                    <div class="header__info-contact hide-on-mobile-tablet">
+                        <ul class="header__info-contact-list">
+                            <li class="header__info-contact-item">
+                                <div class="info-contact__icon-clock">
+                                    <i class="far fa-clock"></i>
+                                </div>
+                                <div class="info-contact__time">
+                                    <span class="info-contact__time-number">09:00</span>
+                                    AM
+                                    <span class="header__info-contact-time__line"></span> 
+                                    <span class="info-contact__time-number">05:00</span>
+                                    PM
+                                </div>
+                            </li>
+                            <li class="header__info-contact-item">
+                                <div class="info-contact__icon-phone">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <a href="" class="info-contact__phone-number">
+                                    +1 323-913-4688
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="header__info-contact-item">
+                            <div class="info-contact__free-quote">
+                                <a href="" class="info-contact__free-quote-link">
+                                    Get a Free Quote
+                                </a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__navbar hide-on-mobile-tablet">
+                <div class="grid wide header__navbar-box">
+                    <div class="header__navbar-app">
+                        <ul class="header__navbar-app-list">
+                            <li class="header__navbar-app-item header__navbar--active">
+                                <a href="" class="navbar-app-item__link">
+                                    Home
+                                </a>
+                            </li>
+                            <li class="header__navbar-app-item">
+                                <a href="http://facebook.com/" class="navbar-app-item__link">
+                                    About
+                                </a>
+                                <div class="navbar-about__box">
+                                    <ul class="navbar-about__box-list">
+                                        <li class="navbar-about__box-item">
+                                            Our Team
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-app-item">
+                                <a href="" class="navbar-app-item__link">
+                                    Our Tours
+                                </a>
+                                <div class="navbar-tours__box">
+                                    <ul class="navbar-tours__box-list">
+                                        <li class="navbar-tours__box-item">
+                                            Single Tour
+                                        </li>
+                                        <li class="navbar-tours__box-item">
+                                            Family Tour
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-app-item">
+                                <a href="" class="navbar-app-item__link">
+                                    Gallery
+                                </a>
+                                <div class="navbar-gallery__box">
+                                    <ul class="navbar-gallery__box-list">
+                                        <li class="navbar-gallery__box-item">
+                                            Grid Gallery
+                                        </li>
+                                        <li class="navbar-gallery__box-item">
+                                            Full width Gallery
+                                        </li>
+                                        <li class="navbar-gallery__box-item">
+                                            Masonry Gallery
+                                        </li>
+                                        <li class="navbar-gallery__box-item">
+                                            Full width Masonry Gallery
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-app-item">
+                                <a href="" class="navbar-app-item__link">
+                                    Blog
+                                </a>
+                                <div class="navbar-blog__box">
+                                    <ul class="navbar-blog__box-list">
+                                        <li class="navbar-blog__box-item">
+                                            Classic Blog
+                                        </li>
+                                        <li class="navbar-blog__box-item">
+                                            Grid Blog
+                                        </li>
+                                        <li class="navbar-blog__box-item">
+                                            Grid Blog 2
+                                        </li>
+                                        <li class="navbar-blog__box-item">
+                                            Grid Blog 3
+                                        </li>
+                                        <li class="navbar-blog__box-item">
+                                            Blog Post
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header__navbar-app-item">
+                                <a href="" class="navbar-app-item__link">
+                                    Contact Us
+                                </a>
+                            </li>
+                            <li class="header__navbar-app-item">
+                                <a href="" class="navbar-app-item__link">
+                                    Pages
+                                </a>
+                                <!-- Navbar pages box -->
+                                <div class="grid wide navbar-pages__box">
+                                    <div class="navbar-pages__box-elements">
+                                        <div class="navbar-pages__box-elements-heading">
+                                            Elements
+                                        </div>
+                                        <ul class="navbar-pages__box-elements-list">
+                                            <li class="navbar-pages__box-elements-item">Typography</li>
+                                            <li class="navbar-pages__box-elements-item">Buttons</li>
+                                            <li class="navbar-pages__box-elements-item">Forms</li>
+                                            <li class="navbar-pages__box-elements-item">Tabs and Accordions</li>
+                                            <li class="navbar-pages__box-elements-item">Counters</li>
+                                            <li class="navbar-pages__box-elements-item">Icons with Text</li>
+                                            <li class="navbar-pages__box-elements-item">Progress Bars</li>
+                                            <li class="navbar-pages__box-elements-item">Grid System</li>
+                                            <li class="navbar-pages__box-elements-item">Privacy Policy</li>
+                                        </ul>
+                                    </div>
+                                    <div class="navbar-pages__box-additional">
+                                        <div class="navbar-pages__box-additional-heading">
+                                            Additional pages
+                                        </div>
+                                        <ul class="navbar-pages__box-additional-list">
+                                            <li class="navbar-pages__box-additional-item">Services</li>
+                                            <li class="navbar-pages__box-additional-item">Testimonials</li>
+                                            <li class="navbar-pages__box-additional-item">404 Page</li>
+                                            <li class="navbar-pages__box-additional-item">503 Page</li>
+                                            <li class="navbar-pages__box-additional-item">Pricing</li>
+                                            <li class="navbar-pages__box-additional-item">Coming Soon</li>
+                                            <li class="navbar-pages__box-additional-item">Contact Us 2</li>
+                                            <li class="navbar-pages__box-additional-item">FAQ</li>
+                                            <li class="navbar-pages__box-additional-item">Search results</li>
+                                        </ul>
+                                    </div>
+                                    <div class="navbar-pages__box-tours">
+                                        <div class="navbar-pages__box-tours-heading">
+                                            Tours
+                                        </div>
+                                        <ul class="navbar-pages__box-tours-list">
+                                            <span class="navbar-pages__box-tours-icon">
+                                                <i class="fas fa-search-plus navbar-pages__box-tours-icon-link"></i>
+                                            </span>
+                                            <li class="navbar-pages__box-tours-item navbar__tours-img--active">
+                                                <div class="navbar-pages__box-tours-item-img">
+                                                    <img src="./assets/img/gallery-image-1.jpg" alt="" class="navbar-pages__box-tours-img-link">
+                                                    <!-- <i class="fas fa-search-plus navbar-pages__box-tours-icon-link"></i> -->
+                                                </div>
+                                            </li>
+                                            <li class="navbar-pages__box-tours-item">
+                                                <div class="navbar-pages__box-tours-item-img">
+                                                    <img src="./assets/img/gallery-image-2.jpg" alt="" class="navbar-pages__box-tours-img-link">
+                                                </div>
+                                            </li>
+                                            <li class="navbar-pages__box-tours-item">
+                                                <div class="navbar-pages__box-tours-item-img">
+                                                    <img src="./assets/img/gallery-image-3.jpg" alt="" class="navbar-pages__box-tours-img-link">
+                                                </div>
+                                            </li>
+                                            <li class="navbar-pages__box-tours-item">
+                                                <div class="navbar-pages__box-tours-item-img">
+                                                    <img src="./assets/img/gallery-image-4.jpg" alt="" class="navbar-pages__box-tours-img-link">
+                                                </div>
+                                            </li>
+                                            <li class="navbar-pages__box-tours-item">
+                                                <div class="navbar-pages__box-tours-item-img">
+                                                    <img src="./assets/img/gallery-image-5.jpg" alt="" class="navbar-pages__box-tours-img-link">
+                                                </div>
+                                            </li>
+                                            <li class="navbar-pages__box-tours-item">
+                                                <div class="navbar-pages__box-tours-item-img">
+                                                    <img src="./assets/img/gallery-image-6.jpg" alt="" class="navbar-pages__box-tours-img-link">
+                                                </div>
+                                            </li>
+                                            <li class="navbar-pages__box-tours-item">
+                                                <div class="navbar-pages__box-tours-item-img">
+                                                    <img src="./assets/img/gallery-image-7.jpg" alt="" class="navbar-pages__box-tours-img-link">
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <div class="navbar-pages__box-tours-direction">
+                                            <!-- <div class="box-tours-direction">
+                                                <i class="fas fa-caret-left box-tours-direction-icon"></i>
+                                            </div> -->
+                                            <ul class="box-tours-direction-list"> 
+                                                <li class="box-tours-direction-item pagination--active">
+                                                    1
+                                                </li>
+                                                <li class="box-tours-direction-item">
+                                                    2
+                                                </li>
+                                                <li class="box-tours-direction-item">
+                                                    3
+                                                </li>
+                                                <li class="box-tours-direction-item">
+                                                    4
+                                                </li>
+                                                <li class="box-tours-direction-item">
+                                                    5
+                                                </li>
+                                            </ul>
+                                            <!-- <div class="box-tours-direction">
+                                                <i class="fas fa-caret-right box-tours-direction-icon"></i>
+                                            </div> -->
+                                        </div>
+                                    </div>    
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="header__navbar-social">
+                        <ul class="header__navbar-social-list">
+                            <li class="header__navbar-social-item">
+                                <a href="" class="navbar-social-item__link">
+                                    <i class="navbar-social-item__icon fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="header__navbar-social-item">
+                                <a href="" class="navbar-social-item__link">
+                                    <i class="navbar-social-item__icon fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="header__navbar-social-item">
+                                <a href="" class="navbar-social-item__link">
+                                    <i class="navbar-social-item__icon fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="header__navbar-social-item">
+                                <a href="" class="navbar-social-item__link">
+                                    <i class="navbar-social-item__icon fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="slider">
+            <div class="slider-wrap">
+                <div class="slider-content-wrap" id="slider-last-clone">
+                    <div class="slide-img">
+                        <img src="./assets/img/slide3.jpg" alt="">
+                    </div>
+                    <div class="grid wide slider-content">
+                        <div class="slider-content-box">
+                            <h6>
+                                Build your Next Holiday Trip with Us
+                            </h6>
+                            <h2>
+                                <span>Create</span>
+                                <span class="font-weight-bold">Your Tour</span>
+                            </h2>
+                            <div class="slider-content-btn">
+                                <a href="">
+                                    Get in touch
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-content-wrap">
+                    <div class="slide-img">
+                        <img src="./assets/img/slide1.jpg" alt="">
+                    </div>
+                    <div class="grid wide slider-content">
+                        <div class="slider-content-box">
+                            <h6>
+                                Enjoy the Best Destinations with Our Travel Agency
+                            </h6>
+                            <h2>
+                                <span>Explore</span>
+                                <span class="font-weight-bold">The World</span>
+                            </h2>
+                            <div class="slider-content-btn">
+                                <a href="">
+                                    Get in touch
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-content-wrap">
+                    <div class="slide-img">
+                        <img src="./assets/img/slide2.jpg" alt="">
+                    </div>
+                    <div class="grid wide slider-content">
+                        <div class="slider-content-box">
+                            <h6>
+                                A team of professional Travel Experts
+                            </h6>
+                            <h2>
+                                <span>Trust</span>
+                                <span class="font-weight-bold">Our Experience</span>
+                            </h2>
+                            <div class="slider-content-btn">
+                                <a href="">
+                                    Get in touch
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="slider-content-wrap">
+                    <div class="slide-img">
+                        <img src="./assets/img/slide3.jpg" alt="">
+                    </div>
+                    <div class="grid wide slider-content">
+                        <div class="slider-content-box">
+                            <h6>
+                                Build your Next Holiday Trip with Us
+                            </h6>
+                            <h2>
+                                <span>Create</span>
+                                <span class="font-weight-bold">Your Tour</span>
+                            </h2>
+                            <div class="slider-content-btn">
+                                <a href="">
+                                    Get in touch
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-content-wrap" id="slider-first-clone">
+                    <div class="slide-img">
+                        <img src="./assets/img/slide1.jpg" alt="">
+                    </div>
+                    <div class="grid wide slider-content">
+                        <div class="slider-content-box">
+                            <h6>
+                                Enjoy the Best Destinations with Our Travel Agency
+                            </h6>
+                            <h2>
+                                <span>Explore</span>
+                                <span class="font-weight-bold">The World</span>
+                            </h2>
+                            <div class="slider-content-btn">
+                                <a href="">
+                                    Get in touch
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination">
+                <span class="swiper-pagination-bullet" >
+                    <span class="swiper-pagination-before"></span>
+                    <span class="swiper-pagination-after"></span>
+                </span>
+                <span class="swiper-pagination-bullet">
+                    <span class="swiper-pagination-before"></span>
+                    <span class="swiper-pagination-after"></span>
+                </span>
+                <span class="swiper-pagination-bullet">
+                    <span class="swiper-pagination-before"></span>
+                    <span class="swiper-pagination-after"></span>
+                </span>
+            </div>    
+        </div>
+
+        <div class="tour-category">
+            <div class="grid wide tour-category__box">
+                <div class="tour-category__wrap">
+                    <div class="tour-category__location">
+                        <div class="tour-category__location-hover">
+                            <a href="" class="tour-category__img">
+                                <img src="./assets/img/cta-1.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="tour-category__title">Balloon Flights</div>
+                    </div>
+                    <div class="tour-category__location">
+                        <div class="tour-category__location-hover">
+                            <a href="" class="tour-category__img">
+                                <img src="./assets/img/cta-2.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="tour-category__title">Mountain Holiday</div>
+                    </div>
+                    <div class="tour-category__location">
+                        <div class="tour-category__location-hover">
+                            <a href="" class="tour-category__img">
+                                <img src="./assets/img/cta-3.jpg" alt="">
+                            </a>
+                        </div>
+                        <div class="tour-category__title">Beach Holidays</div>
+                    </div>
+                </div>
+                <div class="tour-category__other-location">
+                    <a href="" class="tour-category__other-location-link">
+                        Other Tours
+                        <span></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="app__container">
+            <div class="grid wide app__content">
+                <div class="app__information">
+                    <div class="information__new-locations">
+                        <div class="information__new-locations-img">
+                            <img src="./assets/img/index-1.jpg" alt="">
+                        </div>
+                        <div class="information__new-locations-introduce-wrap">
+                            <div class="information__new-locations-introduce">
+                                <div class="new-locations__introduce-heading">
+                                    Discover New Horizons
+                                </div>
+                                <div class="new-locations__choose">
+                                    <div class="new-locations__choose-title new-locations__choose--active">About Us</div>
+                                    <div class="new-locations__choose-title">Why Choose Us</div>
+                                    <div class="new-locations__choose-title">Our Mission</div>
+                                    <div class="new-locations__choose-line"></div>
+                                </div>
+                                <div class="new-locations__content">
+                                    <div class="new-locations__pane new-locations__content--active">
+                                        Wonder Tour is committed to bringing our clients the best in value and 
+                                        quality travel arrangements. We are passionate about travel and sharing 
+                                        the world's wonders with you.
+                                    </div>
+                                    <div class="new-locations__pane">
+                                        We are proud to offer excellent quality and value for money in our tours, 
+                                        which give you the chance to experience your chosen destination in an 
+                                        authentic and exciting way.
+                                    </div>
+                                    <div class="new-locations__pane">
+                                        Our mission is to provide the ultimate travel planning experience while 
+                                        becoming a one-stop shop for every travel service available in the industry.
+                                    </div>
+                                </div>
+                                <div class="new-locations__btn-box">
+                                    <a href="" class="new-locations__btn-contact">
+                                        Get in Touch
+                                    </a>
+                                    <a href="" class="new-locations__btn-read-more">
+                                        Read More
+                                    </a>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="information__services">
+                        <div class="information__services-wrap">
+                            <h4 class="information__services-heading">
+                                Our Services
+                            </h4>
+                            <div class="information__services-category">
+                                <div class="services-category__item">
+                                    <div class="services-category__item-wrap">
+                                        <span class="services-category__icon">
+                                            <i class="fas fa-sitemap"></i>
+                                        </span>
+                                        <div class="services-category__content">
+                                            <h5 class="services-category__title">
+                                                <a href="">Personalized Matching</a>
+                                            </h5>
+                                            <p class="services-category__description">
+                                                Our unique matching system lets you find just the tour you want 
+                                                for your next holiday.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services-category__item">
+                                    <div class="services-category__item-wrap">
+                                        <span class="services-category__icon">
+                                            <i class="fas fa-award"></i>
+                                        </span>
+                                        <div class="services-category__content">
+                                            <h5 class="services-category__title">
+                                                <a href="">Wide Variety of Tours</a>
+                                            </h5>
+                                            <p class="services-category__description">
+                                                We offer a wide variety of personally picked tours with destinations
+                                                all over the globe.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services-category__item">
+                                    <div class="services-category__item-wrap">
+                                        <span class="services-category__icon">
+                                            <i class="far fa-star"></i>
+                                        </span>
+                                        <div class="services-category__content">
+                                            <h5 class="services-category__title">
+                                                <a href="">Highly Qualified Service</a>
+                                            </h5>
+                                            <p class="services-category__description">
+                                                Our tour managers are qualified, skilled, and friendly to bring you the
+                                                best service.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services-category__item">
+                                    <div class="services-category__item-wrap">
+                                        <span class="services-category__icon">
+                                            <i class="fas fa-headphones"></i>
+                                        </span>
+                                        <div class="services-category__content">
+                                            <h5 class="services-category__title">
+                                                <a href="">24/7 Support</a>
+                                            </h5>
+                                            <p class="services-category__description">
+                                                You can always get professional support from our staff 24/7 and ask any
+                                                question you have.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services-category__item">
+                                    <div class="services-category__item-wrap">
+                                        <span class="services-category__icon">
+                                            <i class="fas fa-fire-alt"></i>
+                                        </span>
+                                        <div class="services-category__content">
+                                            <h5 class="services-category__title">
+                                                <a href="">Handpicked Hotels</a>
+                                            </h5>
+                                            <p class="services-category__description">
+                                                Our team offers only the best selection of affordable and luxury hotels 
+                                                to our clients.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="services-category__item">
+                                    <div class="services-category__item-wrap">
+                                        <span class="services-category__icon">
+                                            <i class="far fa-credit-card"></i>
+                                        </span>
+                                        <div class="services-category__content">
+                                            <h5 class="services-category__title">
+                                                <a href="">Best Price Guarantee</a>
+                                            </h5>
+                                            <p class="services-category__description">
+                                                If you find tours that are cheaper than ours, we will compensate the
+                                                difference.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="information__product">
+                        <div class="information__product-heading">
+                            Hot tours
+                        </div>
+                        <div class="information__product-wrap">
+                            <div class="product__img">
+                                <img src="./assets/img/product-big-1.jpg" alt="">
+                            </div>
+                            <div class="product__content">
+                                <div class="product__content-heading">
+                                    <a href="">Spain, Benidorm</a>
+                                </div>
+                                <div class="product__content-assess">
+                                    <div class="product__content-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                    <div class="product__content-review">
+                                        <a href="">4 customer reviews</a>
+                                    </div>
+                                </div>
+                                <div class="product__content-description">
+                                    Benidorm is a buzzing resort with a big reputation for beach holidays. 
+                                    Situated in sunny Costa Blanca, the town is one of the original Spanish 
+                                    beach resorts...
+                                </div>
+                                <div class="product__content-btn">
+                                    <a href="" class="product__content-btn-buy">
+                                        Buy This Tour
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="information__product-price">
+                                <span>$790</span>
+                            </div>
+                        </div>
+                        <div class="information__product-wrap">
+                            <div class="product__img">
+                                <img src="./assets/img/product-big-2.jpg" alt="">
+                            </div>
+                            <div class="product__content">
+                                <div class="product__content-heading">
+                                    <a href="">Mauritius Island, Africa</a>
+                                </div>
+                                <div class="product__content-assess">
+                                    <div class="product__content-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                    <div class="product__content-review">
+                                        <a href="">5 customer reviews</a>
+                                    </div>
+                                </div>
+                                <div class="product__content-description">
+                                    The beautiful and inviting island nation of Mauritius is an ideal 
+                                    ‘flop and drop’ at the conclusion of your safari. Indulge in the 
+                                    delightful scents of the fragrant...
+                                </div>
+                                <div class="product__content-btn">
+                                    <a href="" class="product__content-btn-buy">
+                                        Buy This Tour
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="information__product-price">
+                                <span>$890</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="information__founders">
+                        <div class="information__founders-heading">
+                            Different People — One Mission
+                        </div>
+                        <div class="information__founders-wrap">
+                            <div class="founder__team">
+                                <div class="founder__member-box">
+                                    <div class="founder__member">
+                                        <div class="founder__member-avatar">
+                                            <a href="" class="founder__member-avatar-link">
+                                                <img src="./assets/img/user-1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="founder__member-info">
+                                            <div class="founder__member-name">
+                                                <a href="">Diana Robinson</a>
+                                            </div>
+                                            <div class="founder__member-position">
+                                                <p>Founder, Owner</p>
+                                            </div>
+                                            <div class="founder__member-phone-number">
+                                                <a href="">+1 323-913-4688</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="founder__member-box">
+                                    <div class="founder__member">
+                                        <div class="founder__member-avatar">
+                                            <a href="" class="founder__member-avatar-link">
+                                                <img src="./assets/img/user-2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="founder__member-info">
+                                            <div class="founder__member-name">
+                                                <a href="">Peter McMillan</a>
+                                            </div>
+                                            <div class="founder__member-position">
+                                                <p>Travel Agent</p>
+                                            </div>
+                                            <div class="founder__member-phone-number">
+                                                <a href="">+1 323-913-4688</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="founder__member-box">
+                                    <div class="founder__member">
+                                        <div class="founder__member-avatar">
+                                            <a href="" class="founder__member-avatar-link">
+                                                <img src="./assets/img/user-3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="founder__member-info">
+                                            <div class="founder__member-name">
+                                                <a href="">Jill Peterson</a>
+                                            </div>
+                                            <div class="founder__member-position">
+                                                <p>Tour Consultant</p>
+                                            </div>
+                                            <div class="founder__member-phone-number">
+                                                <a href="">+1 323-913-4688</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="founder__member-box">
+                                    <div class="founder__member">
+                                        <div class="founder__member-avatar">
+                                            <a href="" class="founder__member-avatar-link">
+                                                <img src="./assets/img/user-4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="founder__member-info">
+                                            <div class="founder__member-name">
+                                                <a href="">James Smith</a>
+                                            </div>
+                                            <div class="founder__member-position">
+                                                <p>PR Manager</p>
+                                            </div>
+                                            <div class="founder__member-phone-number">
+                                                <a href="">+1 323-913-4688</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="app__book-tour">
+                <div class="book-tour__img">
+                    <img src="./assets/img/parallax-1.jpg" alt="">
+                </div>
+                <div class="book-tour__content-box">
+                    <div class="book-tour__content">
+                        <h3 class="book-tour__heading">
+                            <span class="font-weight-bold">
+                                First-class Impressions
+                            </span>
+                            <span>
+                                are Waiting for You!
+                            </span>
+                        </h3>
+                        <p class="book-tour__description">
+                            Our agency offers travelers various tours and excursions with 
+                            destinations all over the world. Browse our website to find 
+                            your dream tour!
+                        </p>
+                        <a class="book-tour__btn">
+                            Book a Tour Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="app__tourist-feel">
+                <div class="tourist-feel__heading">
+                    What People Say
+                </div>
+                <div class="grid wide tourist-feel__content-wrap">
+                    <div class="tourist-feel__content">
+                        <div class="tourist-feel__person-box">
+                            <div class="tourist-feel__person">
+                                <div class="tourist-feel__person-avatar">
+                                    <a href="">
+                                        <img src="./assets/img/user-5.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="tourist-feel__person-description">
+                                    <p>
+                                        Just wanted to say many, many thanks for helping me set up an 
+                                        amazing Costa Rican adventure! My nephew and I had a great time! 
+                                        All of the accommodations were perfect, thank you!
+                                    </p>
+                                </div>
+                                <div class="tourist-feel__person-name">
+                                    <a href="">
+                                        Rupert Wood
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tourist-feel__person-box">
+                            <div class="tourist-feel__person">
+                                <div class="tourist-feel__person-avatar">
+                                    <a href="">
+                                        <img src="./assets/img/user-6.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="tourist-feel__person-description">
+                                    <p>
+                                        I wanted to thank you very much for planning the trip to 
+                                        France for my sister and me. It was amazing and exceeded 
+                                        my expectations! We had a wonderful time and were very pleased.
+                                    </p>
+                                </div>
+                                <div class="tourist-feel__person-name">
+                                    <a href="">
+                                        Catherine Williams
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tourist-feel__person-box">
+                            <div class="tourist-feel__person">
+                                <div class="tourist-feel__person-avatar">
+                                    <a href="">
+                                        <img src="./assets/img/user-7.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="tourist-feel__person-description">
+                                    <p>
+                                        We had a marvelous time in our travels to Madagascar, 
+                                        Zimbabwe, and Botswana, we had just wonderful experiences. 
+                                        Your service was amazing and everyone was very attentive!
+                                    </p>
+                                </div>
+                                <div class="tourist-feel__person-name">
+                                    <a href="">
+                                        Sam Peterson
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="grid wide app__dream-journey">
+                <div class="dream-journey__heading">
+                    7 Years of Following The Dream
+                </div>
+                <div class="dream-journey__content">
+                    <div class="dream-journey__item">
+                        <div class="dream-journey__thumbnail">
+                            <img src="./assets/img/thumnails-info.jpg" alt="" class="dream-journey__thumbnail-img">
+                            <div class="dream-journey__thumbnail-figure">
+                                <div class="thumbnail-figure__number">
+                                    22
+                                </div>
+                                <div class="thumbnail-figure__description">
+                                    International Awards
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dream-journey__item">
+                        <div class="dream-journey__thumbnail">
+                            <img src="./assets/img/thumnails-info.jpg" alt="" class="dream-journey__thumbnail-img">
+                            <div class="dream-journey__thumbnail-figure">
+                                <div class="thumbnail-figure__number">
+                                    500+
+                                </div>
+                                <div class="thumbnail-figure__description">
+                                    Happy Travelers
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dream-journey__item">
+                        <div class="dream-journey__thumbnail">
+                            <img src="./assets/img/thumnails-info.jpg" alt="" class="dream-journey__thumbnail-img">
+                            <div class="dream-journey__thumbnail-figure">
+                                <div class="thumbnail-figure__number">
+                                    42
+                                </div>
+                                <div class="thumbnail-figure__description">
+                                    Team Members
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+            </div>      
+            <div class="app__discount">
+                <div class="discount__img">
+                    <img src="./assets/img/parallax-2.jpg" alt="">
+                </div>
+                <div class="discount__content-wrap">
+                    <div class="discount__content">
+                        <h3 class="discount__heading">
+                            Sign Up for 25% Discount
+                        </h3>
+                        <p class="discount__description">
+                            Want to get an instant discount for your next tour? Leave your email
+                            and sign up for our newsletter with 25% off all our offers.
+                        </p>
+                        <form class="discount__form">
+                            <div class="discount__form-group">
+                                <input type="email" placeholder="Enter Your E-mail" class="discount__form-control">
+                                <span class="discount__form-message"></span>
+                            </div>
+                            <button class="discount__form-submit">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="app__blog-posts">
+                <div class="grid wide blog-posts__wrap">
+                    <h3 class="blog-posts__heading">
+                        Latest Blog Posts
+                    </h3>
+                    <div class="blog-posts__content">
+                        <div class="blog-posts__content-box">
+                            <div class="blog-posts__item-wrap" id="blog-posts__last-clone">
+                                <div class="blog-posts__item">
+                                    <a href="" class="blog-posts__img">
+                                        <img src="./assets/img/blog-post-5.jpg" alt="">
+                                    </a>
+                                    <div class="blog-posts__information">
+                                        <div class="blog-posts__description">
+                                            <a href="" class="">
+                                                12 Things Not to Do When You Travel
+                                            </a>
+                                        </div>
+                                        <div class="blog-posts__time">
+                                            <span>
+                                                May 17, 2020
+                                            </span>
+                                        </div>
+                                        <ul class="blog-posts__social-list">
+                                            <li class="blog-posts__social-item facebook">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item twitter">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item google">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-google-plus-g"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item instagram">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-posts__item-wrap">
+                                <div class="blog-posts__item">
+                                    <a href="" class="blog-posts__img">
+                                        <img src="./assets/img/blog-post-1.jpg" alt="">
+                                    </a>
+                                    <div class="blog-posts__information">
+                                        <div class="blog-posts__description">
+                                            <a href="" class="">
+                                                Top 10 Hotels: Rating by Wonder Tour Travel Experts
+                                            </a>
+                                        </div>
+                                        <div class="blog-posts__time">
+                                            <span>
+                                                May 17, 2020
+                                            </span>
+                                        </div>
+                                        <ul class="blog-posts__social-list">
+                                            <li class="blog-posts__social-item facebook">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item twitter">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item google">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-google-plus-g"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item instagram">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-posts__item-wrap">
+                                <div class="blog-posts__item">
+                                    <a href="" class="blog-posts__img">
+                                        <img src="./assets/img/blog-post-2.jpg" alt="">
+                                    </a>
+                                    <div class="blog-posts__information">
+                                        <div class="blog-posts__description">
+                                            <a href="" class="">
+                                                Your Personal Guide to 5 Best Places to Visit on Earth
+                                            </a>
+                                        </div>
+                                        <div class="blog-posts__time">
+                                            <span>
+                                                May 12, 2020
+                                            </span>
+                                        </div>
+                                        <ul class="blog-posts__social-list">
+                                            <li class="blog-posts__social-item facebook">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item twitter">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item google">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-google-plus-g"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item instagram">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-posts__item-wrap">
+                                <div class="blog-posts__item">
+                                    <a href="" class="blog-posts__img">
+                                        <img src="./assets/img/blog-post-3.jpg" alt="">
+                                    </a>
+                                    <div class="blog-posts__information">
+                                        <div class="blog-posts__description">
+                                            <a href="" class="">
+                                                How to Find the Best Travel Deals for Your Next Holiday
+                                            </a>
+                                        </div>
+                                        <div class="blog-posts__time">
+                                            <span>
+                                                May 17, 2020
+                                            </span>
+                                        </div>
+                                        <ul class="blog-posts__social-list">
+                                            <li class="blog-posts__social-item facebook">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item twitter">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item google">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-google-plus-g"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item instagram">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-posts__item-wrap">
+                                <div class="blog-posts__item">
+                                    <a href="" class="blog-posts__img">
+                                        <img src="./assets/img/blog-post-4.jpg" alt="">
+                                    </a>
+                                    <div class="blog-posts__information">
+                                        <div class="blog-posts__description">
+                                            <a href="" class="">
+                                                5 Places to Visit in Montana for Superb Hiking
+                                            </a>
+                                        </div>
+                                        <div class="blog-posts__time">
+                                            <span>
+                                                May 12, 2020
+                                            </span>
+                                        </div>
+                                        <ul class="blog-posts__social-list">
+                                            <li class="blog-posts__social-item facebook">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item twitter">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item google">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-google-plus-g"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item instagram">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-posts__item-wrap">
+                                <div class="blog-posts__item">
+                                    <a href="" class="blog-posts__img">
+                                        <img src="./assets/img/blog-post-5.jpg" alt="">
+                                    </a>
+                                    <div class="blog-posts__information">
+                                        <div class="blog-posts__description">
+                                            <a href="" class="">
+                                                12 Things Not to Do When You Travel
+                                            </a>
+                                        </div>
+                                        <div class="blog-posts__time">
+                                            <span>
+                                                May 17, 2020
+                                            </span>
+                                        </div>
+                                        <ul class="blog-posts__social-list">
+                                            <li class="blog-posts__social-item facebook">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item twitter">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item google">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-google-plus-g"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item instagram">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-posts__item-wrap" id="blog-posts__first-clone">
+                                <div class="blog-posts__item">
+                                    <a href="" class="blog-posts__img">
+                                        <img src="./assets/img/blog-post-1.jpg" alt="">
+                                    </a>
+                                    <div class="blog-posts__information">
+                                        <div class="blog-posts__description">
+                                            <a href="" class="">
+                                                Top 10 Hotels: Rating by Wonder Tour Travel Experts
+                                            </a>
+                                        </div>
+                                        <div class="blog-posts__time">
+                                            <span>
+                                                May 17, 2020
+                                            </span>
+                                        </div>
+                                        <ul class="blog-posts__social-list">
+                                            <li class="blog-posts__social-item facebook">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-facebook-f"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item twitter">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item google">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-google-plus-g"></i>
+                                                </a>
+                                            </li>
+                                            <li class="blog-posts__social-item instagram">
+                                                <a href="" class="blog-posts__social-item-link">
+                                                    <i class="blog-posts__social-item-icon fab fa-instagram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-posts__pagination">
+                        <span class="blog-posts__pagination-bullet">
+                            <span class="blog-posts__pagination-before"></span>
+                            <span class="blog-posts__pagination-after"></span>
+                        </span>
+                        <span class="blog-posts__pagination-bullet">
+                            <span class="blog-posts__pagination-before"></span>
+                            <span class="blog-posts__pagination-after"></span>
+                        </span>
+                        <span class="blog-posts__pagination-bullet">
+                            <span class="blog-posts__pagination-before"></span>
+                            <span class="blog-posts__pagination-after"></span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="app__gallery">
+                <div class="gallery__heading">
+                    Gallery
+                </div>
+                <div class="gallery__content-wrap">
+                    <div class="gallery__content">
+                        <div class="gallery__item-wrap">
+                            <div class="gallery__item">
+                                <span class="gallery__search-icon">
+                                    <i class="fas fa-search-plus gallery__search-icon-link"></i>
+                                </span>
+                                <img src="./assets/img/gallery-image-1.jpg" alt="" class="abc">
+                            </div>
+                        </div>
+                        <div class="gallery__item-wrap">
+                            <div class="gallery__item">
+                                <span class="gallery__search-icon">
+                                    <i class="fas fa-search-plus gallery__search-icon-link"></i>
+                                </span>
+                                <img src="./assets/img/gallery-image-2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="gallery__item-wrap">
+                            <div class="gallery__item">
+                                <span class="gallery__search-icon">
+                                    <i class="fas fa-search-plus gallery__search-icon-link"></i>
+                                </span>
+                                <img src="./assets/img/gallery-image-3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="gallery__item-wrap">
+                            <div class="gallery__item">
+                                <span class="gallery__search-icon">
+                                    <i class="fas fa-search-plus gallery__search-icon-link"></i>
+                                </span>
+                                <img src="./assets/img/gallery-image-4.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="gallery__item-wrap">
+                            <div class="gallery__item">
+                                <span class="gallery__search-icon">
+                                    <i class="fas fa-search-plus gallery__search-icon-link"></i>
+                                </span>
+                                <img src="./assets/img/gallery-image-5.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="gallery__item-wrap">
+                            <div class="gallery__item">
+                                <span class="gallery__search-icon">
+                                    <i class="fas fa-search-plus gallery__search-icon-link"></i>
+                                </span>
+                                <img src="./assets/img/gallery-image-6.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="gallery__item-wrap">
+                            <div class="gallery__item">
+                                <span class="gallery__search-icon">
+                                    <i class="fas fa-search-plus gallery__search-icon-link"></i>
+                                </span>
+                                <img src="./assets/img/gallery-image-7.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="gallery__item-prev">
+                    <span class="gallery__item-prev-link">
+                        <i class="fas fa-chevron-left"></i>
+                    </span>
+                </div>
+                <div class="gallery__item-next gallery__item-active">
+                    <span class="gallery__item-next-link">
+                        <i class="fas fa-chevron-right"></i>
+                    </span>
+                </div> -->
+                <div class="gallery__pagination">
+                    <span class="gallery__pagination-bullet">
+                        <span class="gallery__pagination-before"></span>
+                        <span class="gallery__pagination-after"></span>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="app__footer">
+                <div class="grid wide footer__heading">
+                    <div class="footer__corporate">
+                        <div class="footer__contact-us">
+                            <div class="contact-us__heading">
+                                Contact us
+                            </div>
+                            <ul class="contact-us__list">
+                                <li class="contact-us__item">
+                                    <div class="contact-us__item-icon">
+                                        <span class="contact-us__icon-link">
+                                            <i class="fas fa-phone-alt"></i>
+                                        </span>
+                                    </div>
+                                    <div class="contact-us__item-content">
+                                        <a href="" class="contact-us__content-link">
+                                            <span>+1 323-913-4688</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="contact-us__item">
+                                    <div class="contact-us__item-icon">
+                                        <span class="contact-us__icon-link">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                    </div>
+                                    <div class="contact-us__item-content">
+                                        <a href="" class="contact-us__content-link">
+                                            <span>info@demolink.org</span>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="contact-us__item">
+                                    <div class="contact-us__item-icon">
+                                        <span class="contact-us__icon-link">
+                                            <i class="fas fa-location-arrow"></i>
+                                        </span>
+                                    </div>
+                                    <div class="contact-us__item-content">
+                                        <a href="" class="contact-us__content-link">
+                                            <span>4730 Crystal Springs Dr, Los Angeles, CA 90027</span>
+                                        </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__news">
+                            <div class="news__heading">
+                                Popular news
+                            </div>
+                            <ul class="news__list">
+                                <li class="news__item">
+                                    <div class="news__item-content">
+                                        <a href="" class="news__item-content-link">
+                                            Your Personal Guide to 5 Best Places to Visit on Earth
+                                        </a>
+                                    </div>
+                                    <div class="news__item-time">
+                                        <span>May 04, 2020</span>
+                                    </div>
+                                </li>
+                                <li class="news__item">
+                                    <div class="news__item-content">
+                                        <a href="" class="news__item-content-link">
+                                            Top 10 Hotels: Rating by Wonder Tour Travel Experts
+                                        </a>
+                                    </div>
+                                    <div class="news__item-time">
+                                        <span>May 04, 2020</span>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__quick-links">
+                            <div class="quick-links__heading">
+                                Quick links
+                            </div>
+                            <ul class="quick-links__list">
+                                <li class="quick-links__item">
+                                    <a href="" class="quick-links__item-link">About us</a>
+                                </li>
+                                <li class="quick-links__item">
+                                    <a href="" class="quick-links__item-link">Our tours</a>
+                                </li>
+                                <li class="quick-links__item">
+                                    <a href="" class="quick-links__item-link">Our team</a>
+                                </li>
+                                <li class="quick-links__item">
+                                    <a href="" class="quick-links__item-link">Gallery</a>
+                                </li>
+                                <li class="quick-links__item">
+                                    <a href="" class="quick-links__item-link">Blog</a>
+                                </li>
+                            </ul>
+                            <div class="quick-links__btn">
+                                <a href="" class="quick-links__btn-link">Get in touch</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__final-wrap">
+                    <div class="grid wide footer__final">
+                        <div class="footer__nocopyright">
+                            © 2021 Wonder Tour. All rights reserved.
+                        </div>
+                        <ul class="footer__social-list">
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-item-link">
+                                    <i class="footer__social-item-icon fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-item-link">
+                                    <i class="footer__social-item-icon fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-item-link">
+                                    <i class="footer__social-item-icon fab fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="footer__social-item">
+                                <a href="" class="footer__social-item-link">
+                                    <i class="footer__social-item-icon fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="footer__policy">
+                            Privacy Policy
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script type="module" src="./assets/js/main.js"></script>
+    <!-- <script src="./assets/js/slider.js"></script> -->
+</body>
+</html>

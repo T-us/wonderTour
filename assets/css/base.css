@@ -1,0 +1,47 @@
+:root{
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #01b3a7;
+    --hover-color: #50ba87;
+
+    --height-header: 140px;
+    --height-header-info: 80px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+.hide-on-pc{
+    display: none;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+@keyframes slideUp{
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideDown{
+    from{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+}
